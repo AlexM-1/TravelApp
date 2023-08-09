@@ -97,7 +97,7 @@ class OneCheapFlightVC: UIViewController {
         startCityLabel.text = "Город отправления: \n\(flight.startCity) \n(\(flight.startLocationCode))"
         endCityLabel.text = "Город прибытия: \n\(flight.endCity) \n(\(flight.endLocationCode))"
         startDateLabel.text = "Дата отправления: \n\(dateConverter(flight.startDate))"
-        endDateLabel.text = "Дата возращения: \n\(dateConverter(flight.endDate))"
+        endDateLabel.text = "Дата возвращения: \n\(dateConverter(flight.endDate))"
         priceLabel.text = "Стоимость: \(flight.price) ₽"
         likeButtonView.setIsLiked(newLikeStatus: flight.isLiked)
         searchToken.text = "Код поиска рейса: \n\(flight.searchToken)"
